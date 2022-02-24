@@ -29,7 +29,7 @@ void DivideAndSort(int[] array, int leftIndex, int rightIndex) {
 }
 
 void QuickSort(int[] array) {
-    DivideAndSort(array, 0, (array.Length) - 1);
+    DivideAndSort(array, 0, array.Length - 1);
 }
 
 
