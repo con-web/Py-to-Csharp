@@ -31,4 +31,5 @@ def quick_sort(array: list[int]) -> None:
 
 test_data: list[int] = [2, 0, 75, 64, 30, 20, 93, 8, 28, 44, ]
 quick_sort(test_data)
-print(test_data)
+for item in test_data:
+    print(item)
